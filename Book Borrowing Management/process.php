@@ -42,31 +42,4 @@
     // Token
     echo "Token: " . $Token . '<br>';
  
-   
-    // echo "Name: " . $Name . '<br>';
-    // echo "id: " . $Id . '<br>';
-    // echo "Book Name: " . $bookName . '<br>';
-    // echo "Time: " . $BorrowDate . '<br>';
-    // echo "Token: " . $Token . '<br>';
-    // echo "Return Date: " . $ReturnDate . '<br>';
- 
-    // if (preg_match("/^[A-Z]{2}[a-z]+$/", $Name)) {
-    //     echo "Name :" . $Name . '<br>';
-    // } else {
-    //     echo "Name format is incorrect<br>";
-    // }
- 
-    // if (preg_match("/\@+(student)+\.(aiub)+\.(edu)/", $email)) {
-    //     echo "Valid Email: " . $email. '<br>';
-    // }
-    // else {
-    //     echo "Invalid Email";
-    // }
- 
-    // if(preg_match("/[A-Z]+\.[A-Z]+/")){
-    //     echo
-    // }
- 
-    // Adding a simple message for clarity
-    // echo "hello";
 ?>
