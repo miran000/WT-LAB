@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- 
+   
+<img src="id.PNG">
 <title>Book Borrowing Management </title>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -54,23 +55,23 @@
                   <h2 style="text-align: center;" >  Book Registration:</h2>
 
 
-                 <form action="/action_page.php">
+                 <form action="process.php" method="post">
 
-                 <label for ="fname">Name: </label>
+                 <label for ="name">Name: </label>
  
-                 <input type="text" id="fname" name="fname" ><br><br>
+                 <input type="text" id="name" name="name" ><br><br>
  
-                 <label for="Iname">Id--no:  </label>
+                 <label for="id">Id:  </label>
 
-                 <input type="text" id="Iname" name="Iname"><br><br>
+                 <input type="text" id="id" name="id"><br><br>
 
-                 <label for="Iname">Email:</label>
+                 <label for="email">Email:</label>
 
-                 <input type="text" id="lname" name="Iname"><br><br>
+                 <input type="email" id="email" name="email"><br><br>
 
-                 <label for="books">Book Title:</label>
+                 <label for="book_title">BookTitle:</label>
  
-                 <select name="books" id="books">
+                 <select name="book_title" id="book_title">
 
                  <option value="book"> Anna Karenina </option>
 
@@ -96,9 +97,9 @@
 
                  <h2 style="text-align: center;"><input type="submit" value="Submit"><br></h2>
  
-             <label for= "borrow date">Borrow date:</label>
+             <label for= "borrow_date:">BorrowDate:</label>
         
-             <input type="date" id="borrow date" name="borrow date">
+             <input type="date" id="borrow_date" name="borrow_date">
         
              <input type="submit"><br><br>
         
@@ -108,13 +109,13 @@
         
              <input type="submit"><br><br>
         
-             <label for="Return date" > Return date:</lebel>
+             <label for="return_date:" > ReturnDate:</lebel>
            
-             <input type="date" id="Return date" name="Return date">
+             <input type="date" id="return_date" name="return_date">
         
              <input type="submit"> <br>
         
-                  </form>
+                </form>
 
              </div>
 
